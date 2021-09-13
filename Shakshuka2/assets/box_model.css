@@ -14,6 +14,7 @@ h2 {
   font-size: 32px;
 }
 
+
 /* This selector selects ALL anchor tag children of ALL list elements that
 are children of an Unordered Lsit element */
 ul li a, figcaption a {
@@ -71,4 +72,63 @@ ol li:nth-of-type(2n) {
 h2 + .user_review {
     border-top: 1px solid black;
 }
+
+nav {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top; 
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ingredients-list li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* #directions > ol {
+  margin-top: 15px;
+  margin-bottom: 15px;
+} */
+
+input[type="text"], select {
+  display: block;
+  width: 175px;
+}
+
+select {
+  margin: 15px;
+  width: 150px;
+}
+
+textarea {
+  margin: 15px;
+  width: 150px;
+}
+
+
+
+
 
